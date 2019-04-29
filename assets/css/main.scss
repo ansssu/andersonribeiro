@@ -9,6 +9,8 @@ html{
     font-family: $primary-font;
 }
 
+
+
 .hero{
     background: url('/assets/img/HeroBackground_mask_blue.jpg') center;
     background-size: cover;
@@ -41,22 +43,26 @@ html{
     align-items: center;
 }
 
-.service{
-    padding-top: 3rem;
-    background-color: silver;
-    height: 14rem;
-    width:50%;
-    float: left;
-    h2{
-        font-size: 1.8rem;
-    }
+.contact{
+    color: darkgrey;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    font-size: 2.5rem;
+    font-weight: 700;
 
-}
+    a {
+        color:  black;
+        &:visited {
+          color: black;
+        }
+        &:hover {
+            color: black;
+        }
+        &:active {
+            color:  black;
+        }
+      };
 
-
-
-.service-title{
-    letter-spacing: -1;
-    font-size: 32px;
-    font-weight: bold;
 }
