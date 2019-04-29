@@ -6,6 +6,7 @@
   "author": "Anderson Ribeiro <anderson.ribeiro@hotmail.com.br>",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "normalize.css": "^8.0.1"
   }
 }

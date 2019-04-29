@@ -29,7 +29,9 @@ sass:
     load_paths:
         - _sass
         - node_modules
-        - assets
+
+sass:
+  style: compressed        
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -43,5 +45,3 @@ sass:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-sass:
-  style: compressed

@@ -1,15 +1,62 @@
 ---
 ---
-.hero{
-    background: url('/assets/img/HeroBackground_black_mask.jpg') center;
-    background-size: cover;
-    padding: 4rem 2rem;
-    height: 100vh;
-    color:black;
-    font-weight: bolder;
+@import 'base/typography';
+@import 'abstracts/variables';
+@import "../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "../node_modules/bootstrap/scss/buttons";
 
-    article{
-        color: white;
-        font-weight: bolder;
+html{
+    font-family: $primary-font;
+}
+
+.hero{
+    background: url('/assets/img/HeroBackground_mask_blue.jpg') center;
+    background-size: cover;
+    padding: 6rem 3rem 10rem 2rem;
+    height: 100vh;
+    color: white;
+    font-size: 2.5rem;
+    
+    h1{
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
     }
+}
+
+.btn-red{
+    color: white;
+    background-color: red;
+}
+
+
+.aboutme{
+    color:white;  
+    height: 100vh;
+    padding:1rem;
+    font-size: 2rem;
+    background: url('/assets/img/programming_mask_black.jpg') center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+}
+
+.service{
+    padding-top: 3rem;
+    background-color: silver;
+    height: 14rem;
+    width:50%;
+    float: left;
+    h2{
+        font-size: 1.8rem;
+    }
+
+}
+
+
+
+.service-title{
+    letter-spacing: -1;
+    font-size: 32px;
+    font-weight: bold;
 }
