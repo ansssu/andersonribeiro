@@ -17,16 +17,23 @@ html{
     padding: 6rem 3rem 10rem 2rem;
     height: 100vh;
     color:$white-color;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
+    // font-size: 2.5rem;
     
     h1{
-        font-size: 4rem;
+        // font-size: 4rem;
+        font-size: 2.3rem;
         font-weight: 700;
         margin-bottom: 1rem;
     }
 
+    display: grid;
+    align-items: center;
+
     
 }
+
+
 
 .btn-red{
     
@@ -35,7 +42,7 @@ html{
     background-color:$hightlight-color;
     padding: 1.3rem;
     margin-top: 1.3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: $white-color;
     text-decoration: none;
@@ -62,7 +69,7 @@ html{
     color:$white-color;
     height: 100vh;
     padding:1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     background: url('../img/programming_mask_black.jpg') center;
     background-size: cover;
     display: grid;
@@ -96,7 +103,8 @@ html{
     display: grid;
     align-items: center;
     height: 100vh;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
+    // font-size: 2.5rem;
     font-weight: 700;
 
     a {
@@ -118,4 +126,48 @@ html{
           }
       }
 
+}
+
+
+@include media-breakpoint-up([md,lg]) {
+    .hero{
+        font-size: 2.5rem;
+        h1{
+            font-size: 4rem;
+        }
+    }
+
+    .btn-red{
+        font-size: 1rem;
+    };
+
+    .aboutme{
+        font-size: 1.5rem;
+    }
+
+    .contact{
+        font-size: 3rem;
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .hero{
+        font-size: 2.5rem;
+        h1{
+            font-size: 4rem;
+        }
+    }
+
+    .btn-red{
+        font-size: 1.5rem;
+    };
+
+    .aboutme{
+        font-size: 1.5rem;
+    }
+
+    .contact{
+        font-size: 3rem;
+    }
 }
