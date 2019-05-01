@@ -12,7 +12,7 @@ html{
 
 
 .hero{
-    background: url('/assets/img/HeroBackground_mask_blue.jpg') center;
+    background: url('../img/HeroBackground_mask_blue.jpg') center;
     background-size: cover;
     padding: 6rem 3rem 10rem 2rem;
     height: 100vh;
@@ -63,7 +63,7 @@ html{
     height: 100vh;
     padding:1rem;
     font-size: 2rem;
-    background: url('/assets/img/programming_mask_black.jpg') center;
+    background: url('../img/programming_mask_black.jpg') center;
     background-size: cover;
     display: grid;
     align-items: center;
