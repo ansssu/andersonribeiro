@@ -22,7 +22,7 @@ html{
     
     h1{
         // font-size: 4rem;
-        font-size: 2.3rem;
+        font-size: 2.1rem;
         font-weight: 700;
         margin-bottom: 1rem;
     }
@@ -129,7 +129,30 @@ html{
 }
 
 
-@include media-breakpoint-up([md,lg]) {
+@include media-breakpoint-up(md) {
+    .hero{
+        font-size: 2.1rem;
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    .btn-red{
+        font-size: 0.7rem;
+    };
+
+    .aboutme{
+        font-size: 1rem;
+    }
+
+    .contact{
+        font-size: 2rem;
+    }
+}
+
+
+
+@include media-breakpoint-up(lg) {
     .hero{
         font-size: 2.5rem;
         h1{
