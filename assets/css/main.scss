@@ -16,7 +16,7 @@ html{
     background-size: cover;
     padding: 6rem 3rem 10rem 2rem;
     height: 100vh;
-    color: white;
+    color:$white-color;
     font-size: 2.5rem;
     
     h1{
@@ -24,21 +24,42 @@ html{
         font-weight: 700;
         margin-bottom: 1rem;
     }
+
+    
 }
 
 .btn-red{
-    color: white;
-    background-color: red;
+    
+    letter-spacing: 0.11em;
+    text-transform: uppercase;    
+    background-color:$hightlight-color;
     padding: 1.3rem;
     margin-top: 1.3rem;
     font-size: 1.2rem;
     font-weight: bold;
+    color: $white-color;
+    text-decoration: none;
+    color: white;
+
+    &:visited {
+          color: inherit;
+        }
+        &:hover {
+            color: inherit;
+            transform: translateY(1px);
+            filter: saturate(150%);
+        }
+        &:active {
+            color:  inherit;
+        }
     
-}
+        
+};
+
 
 
 .aboutme{
-    color:white;  
+    color:$white-color;
     height: 100vh;
     padding:1rem;
     font-size: 2rem;
@@ -47,6 +68,27 @@ html{
     display: grid;
     align-items: center;
 }
+
+.highlight{   
+        text-decoration: none;
+        color: $hightlight-color !important;
+        &:visited {
+          color: inherit;
+        }
+        &:hover {
+            background-color:$hightlight-color;
+            color: white !important;
+            padding: 10px;
+            text-decoration: none;
+        }
+        &:active {
+            color:  inherit;
+        }
+};
+
+
+
+
 
 .contact{
     color: darkgrey;
@@ -69,5 +111,11 @@ html{
             color:  black;
         }
       };
+
+      article {
+          p{
+              text-align: center;
+          }
+      }
 
 }
